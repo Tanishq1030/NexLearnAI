@@ -1,14 +1,15 @@
 import { SquareChartGantt } from "lucide-react"
-
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
+import { useNavigate } from "react-router-dom"
 
 export function LoginForm({
   className,
   ...props
 }: React.ComponentPropsWithoutRef<"div">) {
+  const navigate = useNavigate();
   return (
     <div className={cn("flex flex-col gap-6", className)} {...props}>
       <form>
@@ -26,7 +27,7 @@ export function LoginForm({
             <h1 className="text-xl text-white font-bold">Welcome to NexLearnAI</h1>
             <div className="text-center text-sm">
               Don&apos;t have an account?{" "}
-              <a href="#" className="underline underline-offset-4">
+              <a onClick={() => navigate("/register")}  className="underline underline-offset-4">
                 Sign up
               </a>
             </div>
