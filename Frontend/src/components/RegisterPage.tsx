@@ -55,7 +55,7 @@ export function RegisterForm({
                                 className="border-zinc-700 "
                                 id="password"
                                 type="password"
-                                placeholder=""
+                                placeholder="123@!#asdf"
                                 required
                             />
                         </div>
@@ -63,7 +63,7 @@ export function RegisterForm({
                             Login
                         </Button>
                     </div>
-                    <div className="relative text-center text-sm after:absolute after:inset-0 after:top-1/2 after:z-0 after:flex after:items-center after:border-t after:border-border">
+                    {/* <div className="relative text-center text-sm after:absolute after:inset-0 after:top-1/2 after:z-0 after:flex after:items-center after:border-t after:border-border">
                         <span className="relative z-10 bg-black px-2 text-muted-foreground">
                             Or
                         </span>
@@ -87,7 +87,7 @@ export function RegisterForm({
                             </svg>
                             Continue with Google
                         </Button>
-                    </div>
+                    </div> */}
                 </div>
             </form>
             <div className="text-balance text-center text-xs text-muted-foreground [&_a]:underline [&_a]:underline-offset-4 hover:[&_a]:text-primary  ">
