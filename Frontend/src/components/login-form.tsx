@@ -22,7 +22,7 @@ export function LoginForm({
               <div className="flex h-8 w-8 items-center justify-center rounded-md">
                 <SquareChartGantt className="size-6" />
               </div>
-              <span className="sr-only ">Acme Inc.</span>
+              <span className="sr-only ">NexLearnAI</span>
             </a>
             <h1 className="text-xl text-white font-bold">Welcome to NexLearnAI</h1>
             <div className="text-center text-sm">
