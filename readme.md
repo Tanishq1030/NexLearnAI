@@ -98,8 +98,8 @@ NexLearn AI leverages LangChain.js to orchestrate interactions with Google Gemin
 
 ### Installation
 
-1.  Clone the repository: `git clone https://github.com/YOUR_USERNAME/NexLearn-AI.git`
-2.  Navigate to the project directory: `cd NexLearn-AI`
+1.  Clone the repository: `git clone https://github.com/YOUR_USERNAME/NexLearnAI.git`
+2.  Navigate to the project directory: `cd NexLearnAI`
 3.  Install dependencies: `npm install` (or `yarn install`)
 
 ### Environment Variables
